@@ -1,0 +1,18 @@
+[
+  {
+    "id": "com.meomeo.springdock",
+    "name": "SpringDock",
+    "version": "1.0.0",
+    "architecture": "iphoneos-arm",
+    "section": "Tweaks",
+    "description": "Customizable SpringBoard dock with live blur, icon scaling, and gesture support.",
+    "author": "meomeo",
+    "maintainer": "meomeo <repo@meomeo.dev>",
+    "depends": "mobilesubstrate (>= 0.9.6000)",
+    "icon": "packages/com.meomeo.springdock/icon.png",
+    "screenshots": [
+      "packages/com.meomeo.springdock/screenshots/screen1.png",
+      "packages/com.meomeo.springdock/screenshots/screen2.png"
+    ]
+  }
+]

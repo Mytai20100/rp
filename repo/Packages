@@ -1,0 +1,16 @@
+Package: com.meomeo.springdock
+Name: SpringDock
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: Customizable SpringBoard dock with blur effects and icon scaling. Supports iPhone and iPad running iOS 15–17.
+Maintainer: meomeo <repo@meomeo.dev>
+Author: meomeo
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.6000)
+Icon: https://meomeo.github.io/meomeo/packages/com.meomeo.springdock/icon.png
+Depiction: https://meomeo.github.io/meomeo/packages/com.meomeo.springdock/
+Filename: packages/com.meomeo.springdock/package.deb
+Size: 615
+MD5sum: 61f6c3232a61676057287d0615f6d465
+SHA1: 6e02d1fc1df0a51c06e9b312f5ab4037b3f6b6ad
+SHA256: 362bfb7aae291d627a181129d0b501099eccb17d161d4d408470925f0da7803d
