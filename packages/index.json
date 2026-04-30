@@ -14,5 +14,21 @@
       "packages/com.meomeo.springdock/screenshots/screen1.png",
       "packages/com.meomeo.springdock/screenshots/screen2.png"
     ]
+  },
+  {
+    "id": "com.mytai20100.ntcam",
+    "name": "NightCam",
+    "version": "1.0.0",
+    "architecture": "iphoneos-arm64",
+    "section": "Tweaks",
+    "description": "Advanced camera controls with long exposure, uncapped ISO and zoom for jailbroken iPhones.",
+    "author": "Mytai20100",
+    "maintainer": "Mytai20100",
+    "depends": "firmware (>= 15.0), mobilesubstrate | substitute | libhooker",
+    "icon": "packages/com.mytai20100.ntcam/icon.png",
+    "screenshots": [
+      "packages/com.mytai20100.ntcam/screenshots/screen1.png",
+      "packages/com.mytai20100.ntcam/screenshots/screen2.png"
+    ]
   }
 ]
