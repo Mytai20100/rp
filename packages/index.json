@@ -2,7 +2,7 @@
   {
     "id": "com.meomeo.springdock",
     "name": "SpringDock",
-    "version": "1.1.0",
+    "version": "1.0.0",
     "architecture": "iphoneos-arm",
     "section": "Tweaks",
     "description": "Customizable SpringBoard dock with live blur, icon scaling, and gesture support.",
@@ -18,7 +18,7 @@
   {
     "id": "com.mytai20100.ntcam",
     "name": "NightCam",
-    "version": "1.1.0",
+    "version": "1.0.0",
     "architecture": "iphoneos-arm64",
     "section": "Tweaks",
     "description": "Advanced camera controls with long exposure, uncapped ISO and zoom for jailbroken iPhones.",
