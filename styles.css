@@ -15,7 +15,7 @@
   --radius-sm: 12px;
   --shadow: 0 2px 20px rgba(0,0,0,0.08);
   --shadow-lg: 0 8px 40px rgba(0,0,0,0.14);
-  --header-blur: rgba(245,245,247,0.8);
+  --header-blur: rgba(245,245,247,0.85);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -30,7 +30,7 @@
     --accent-hover: #47a8ff;
     --shadow: 0 2px 20px rgba(0,0,0,0.4);
     --shadow-lg: 0 8px 40px rgba(0,0,0,0.6);
-    --header-blur: rgba(10,10,15,0.8);
+    --header-blur: rgba(10,10,15,0.85);
   }
 }
 
@@ -86,7 +86,12 @@ body {
   color: var(--text);
 }
 
-.brand-icon { font-size: 20px; }
+.brand-logo {
+  width: 28px;
+  height: 28px;
+  border-radius: 8px;
+}
+
 .brand-name {
   font-size: 17px;
   font-weight: 600;
@@ -120,7 +125,7 @@ main {
 
 /* ─── Hero ─── */
 .hero {
-  padding: 72px 0 56px;
+  padding: 56px 0 44px;
   animation: fadeUp 0.6s ease both;
 }
 
@@ -135,15 +140,15 @@ main {
   font-weight: 600;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  margin-bottom: 20px;
+  margin-bottom: 18px;
 }
 
 .hero-title {
-  font-size: clamp(40px, 8vw, 72px);
+  font-size: clamp(36px, 7vw, 62px);
   font-weight: 700;
   letter-spacing: -0.03em;
   line-height: 1.05;
-  margin-bottom: 16px;
+  margin-bottom: 20px;
 }
 .hero-title em {
   font-style: italic;
@@ -151,12 +156,6 @@ main {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-}
-
-.hero-sub {
-  color: var(--text2);
-  font-size: 18px;
-  margin-bottom: 28px;
 }
 
 .repo-url-box {
@@ -305,7 +304,6 @@ main {
 .card-get-btn {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
   background: var(--accent);
   color: #fff;
   border: none;
@@ -394,6 +392,7 @@ main {
   border-radius: 18px;
   object-fit: cover;
   box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+  background: var(--surface2);
 }
 
 .modal-name { font-size: 22px; font-weight: 700; letter-spacing: -0.02em; }
@@ -462,6 +461,13 @@ main {
   margin-top: 2px;
 }
 
+.mono-sm {
+  font-family: 'SF Mono', 'Fira Code', monospace !important;
+  font-size: 12px !important;
+  color: var(--text2);
+  word-break: break-all;
+}
+
 /* ─── Toast ─── */
 .toast {
   position: fixed;
@@ -489,12 +495,13 @@ footer {
   position: relative;
   z-index: 1;
   text-align: center;
-  padding: 24px 20px;
+  padding: 20px 20px;
   border-top: 1px solid var(--border);
   font-size: 13px;
   color: var(--text2);
 }
 footer a { color: var(--accent); text-decoration: none; }
+footer a:hover { text-decoration: underline; }
 
 /* ─── Animations ─── */
 @keyframes fadeUp {
@@ -510,6 +517,6 @@ footer a { color: var(--accent); text-decoration: none; }
 /* ─── Responsive ─── */
 @media (max-width: 480px) {
   .tweaks-grid { grid-template-columns: 1fr; }
-  .hero { padding: 48px 0 36px; }
+  .hero { padding: 40px 0 32px; }
   .modal-info { grid-template-columns: 1fr; }
 }

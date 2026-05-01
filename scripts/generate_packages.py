@@ -35,7 +35,6 @@ def get_deb_control(deb_path: Path) -> dict:
     return _parse_control_text(ctrl.read_text(errors="ignore")) if ctrl.exists() else {}
 
 def file_hashes(path: Path):
-    import hashlib
     md5, sha1, sha256 = hashlib.md5(), hashlib.sha1(), hashlib.sha256()
     data = path.read_bytes()
     for h in (md5, sha1, sha256): h.update(data)
@@ -56,7 +55,7 @@ for deb in sorted(PKG_DIR.rglob("*.deb")):
         f"SHA256: {sha256}",
     ]
     entries.append("\n".join(block))
-    print(f"  ✓ {fields['Package']} {fields.get('Version','?')}")
+    print(f"  ✓ {fields['Package']} {fields.get('Version','?')}  sha256={sha256[:12]}…")
 
 packages_text = "\n\n".join(entries) + ("\n" if entries else "")
 
@@ -69,6 +68,8 @@ Codename: ios
 Architectures: iphoneos-arm iphoneos-arm64
 Components: main
 Description: meomeo iOS Tweaks Repository
+SileoIcon: CydiaIcon.png
+Banner: repo-banner.svg
 """
 
 def write_all(dest: Path):

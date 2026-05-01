@@ -6,8 +6,13 @@
   <meta name="theme-color" content="#0a0a0f" media="(prefers-color-scheme: dark)" />
   <meta name="theme-color" content="#f5f5f7" media="(prefers-color-scheme: light)" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
-  <title>meomeo — iOS Tweaks</title>
+  <title>meomeo</title>
   <meta name="description" content="A curated Cydia & Sileo repository for iOS tweaks." />
+
+  <!-- Favicon -->
+  <link rel="icon" href="icon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="icon.svg" />
+
   <link rel="stylesheet" href="styles.css" />
   <link rel="preconnect" href="https://fonts.bunny.net" />
   <link href="https://fonts.bunny.net/css?family=sf-pro-display:400,500,600,700&display=swap" rel="stylesheet" />
@@ -18,11 +23,11 @@
   <header class="site-header">
     <div class="header-inner">
       <a class="brand" href="/">
-        <span class="brand-icon">🐾</span>
+        <img class="brand-logo" src="icon.svg" alt="meomeo" width="28" height="28" />
         <span class="brand-name">meomeo</span>
       </a>
       <nav>
-        <a class="add-btn" id="addRepoBtn" href="#" onclick="addToCydia(event)">
+        <a class="add-btn" id="addRepoBtn" href="#" onclick="addToManager(event)">
           <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M7 1v12M1 7h12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
           Add Repo
         </a>
@@ -32,11 +37,10 @@
 
   <main>
     <section class="hero">
-      <div class="hero-badge">Cydia & Sileo Compatible</div>
-      <h1 class="hero-title">iOS Tweaks,<br><em>refined.</em></h1>
-      <p class="hero-sub">Hand-picked modifications for your jailbroken device.</p>
+      <div class="hero-badge">Cydia &amp; Sileo Compatible</div>
+      <h1 class="hero-title">meomeo<br><em>repo.</em></h1>
       <div class="repo-url-box">
-        <code id="repoUrl">https://USERNAME.github.io/meomeo/</code>
+        <code id="repoUrl">loading…</code>
         <button onclick="copyUrl()" title="Copy URL">
           <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><rect x="5" y="5" width="9" height="9" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M3 11V3a2 2 0 0 1 2-2h8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
         </button>
@@ -65,8 +69,8 @@
 
   <div class="toast" id="toast">Copied!</div>
 
-  <footer>
-    <p>meomeo repo · <a href="https://github.com/USERNAME/meomeo" target="_blank">GitHub</a></p>
+  <footer id="siteFooter">
+    <p>meomeo · <a id="footerGithub" href="#" target="_blank">GitHub</a><span id="footerMeta"></span></p>
   </footer>
 
   <script src="script.js"></script>
