@@ -1,6 +1,6 @@
 Package: com.mytai20100.ntcam
 Name: NightCam
-Version: 1.3.0
+Version: 2
 Architecture: iphoneos-arm64
 Description: Advanced camera controls with long exposure (1-30s), uncapped ISO & zoom hmmmm
 Author: Mytai20100
