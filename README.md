@@ -5,7 +5,7 @@
 ## Add Repository
 
 ```
-https://USERNAME.github.io/meomeo/
+https://mytai20100.github.io/rp/
 ```
 
 Open Cydia / Sileo → Sources → Edit → Add → paste URL above.
