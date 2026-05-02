@@ -2,7 +2,7 @@
   {
     "id": "com.mytai20100.ntcam",
     "name": "NightCam",
-    "version": "2",
+    "version": "3.0.0",
     "architecture": "iphoneos-arm64",
     "section": "Tweaks",
     "description": "Advanced camera controls with long exposure, uncapped ISO and zoom for jailbroken iPhones.",
