@@ -1,0 +1,9 @@
+Package: com.mytai20100.zocam
+Name: ZoCam
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Description: Extreme zoom slider up to 400x for stock Camera app. Single white vertical slider, works in photo and video mode.
+Author: Mytai20100
+Maintainer: Mytai20100
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate | substitute | libhooker | ellekit

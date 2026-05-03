@@ -2,7 +2,7 @@
   {
     "id": "com.mytai20100.ntcam",
     "name": "NightCam",
-    "version": "3.0.0",
+    "version": "2",
     "architecture": "iphoneos-arm64",
     "section": "Tweaks",
     "description": "Advanced camera controls with long exposure, uncapped ISO and zoom for jailbroken iPhones.",
@@ -13,6 +13,22 @@
     "screenshots": [
       "packages/com.mytai20100.ntcam/screenshots/screen1.png",
       "packages/com.mytai20100.ntcam/screenshots/screen2.png"
+    ]
+  },
+  {
+    "id": "com.mytai20100.zocam",
+    "name": "ZoCam",
+    "version": "1.0.0",
+    "architecture": "iphoneos-arm64",
+    "section": "Tweaks",
+    "description": "Extreme zoom slider up to 400x for stock Camera app. Single white vertical slider, works in photo and video mode.",
+    "author": "Mytai20100",
+    "maintainer": "Mytai20100",
+    "depends": "firmware (>= 15.0), mobilesubstrate | substitute | libhooker | ellekit",
+    "icon": "packages/com.mytai20100.zocam/icon.png",
+    "screenshots": [
+      "packages/com.mytai20100.zocam/screenshots/screen1.png",
+      "packages/com.mytai20100.zocam/screenshots/screen2.png"
     ]
   }
 ]
