@@ -18,7 +18,7 @@
   {
     "id": "com.mytai20100.zocam",
     "name": "ZoCam",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "architecture": "iphoneos-arm64",
     "section": "Tweaks",
     "description": "Extreme zoom slider up to 400x for stock Camera app. Single white vertical slider, works in photo and video mode.",
