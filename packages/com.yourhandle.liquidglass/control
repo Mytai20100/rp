@@ -1,0 +1,9 @@
+Package: com.yourhandle.liquidglass
+Name: LiquidGlass
+Version: 1.3.0
+Architecture: iphoneos-arm64
+Description: [EXPERIMENTAL] Gives iOS UI elements a real-time Metal-rendered Liquid Glass look.
+Author: Your Name
+Maintainer: Your Name
+Section: Tweaks
+Depends: mobilesubstrate | substitute | libhooker | ellekit, preferenceloader
